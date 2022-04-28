@@ -1,0 +1,37 @@
+current directory: C:/Users/labor/myportfolio/vendor/bundle/ruby/2.6.0/gems/msgpack-1.5.1/ext/msgpack
+C:/Ruby26/bin/ruby.exe -I C:/Ruby26/lib/ruby/2.6.0 -r ./siteconf20220428-2004-4ikvaa.rb extconf.rb
+checking for ruby/st.h... yes
+checking for st.h... yes
+checking for rb_enc_interned_str() in ruby.h... no
+creating Makefile
+
+current directory: C:/Users/labor/myportfolio/vendor/bundle/ruby/2.6.0/gems/msgpack-1.5.1/ext/msgpack
+make "DESTDIR=" clean
+
+current directory: C:/Users/labor/myportfolio/vendor/bundle/ruby/2.6.0/gems/msgpack-1.5.1/ext/msgpack
+make "DESTDIR="
+generating msgpack-i386-mingw32.def
+compiling buffer.c
+compiling buffer_class.c
+compiling extension_value_class.c
+compiling factory_class.c
+compiling packer.c
+compiling packer_class.c
+compiling packer_ext_registry.c
+compiling rbinit.c
+compiling rmem.c
+compiling unpacker.c
+compiling unpacker_class.c
+unpacker_class.c: In function 'Unpacker_full_unpack':
+unpacker_class.c:386:43: warning: unknown conversion type character 'z' in format [-Wformat=]
+  386 |         rb_raise(eMalformedFormatError, "%zd extra bytes after the deserialized object", extra);
+      |                                           ^
+unpacker_class.c:386:41: warning: too many arguments for format [-Wformat-extra-args]
+  386 |         rb_raise(eMalformedFormatError, "%zd extra bytes after the deserialized object", extra);
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compiling unpacker_ext_registry.c
+linking shared-object msgpack/msgpack.so
+
+current directory: C:/Users/labor/myportfolio/vendor/bundle/ruby/2.6.0/gems/msgpack-1.5.1/ext/msgpack
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 msgpack.so ./.gem.20220428-2004-13fvju1/msgpack
