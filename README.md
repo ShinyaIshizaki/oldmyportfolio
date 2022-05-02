@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,4 +23,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+"# myportfolio" 
+=======
+# myportfolio
+>>>>>>> 09101eca59e5c1045906a8d31dd2a409302bcdd0
 "# myportfolio" 
